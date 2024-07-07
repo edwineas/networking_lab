@@ -29,7 +29,7 @@ void main(){
                 }
             }
         }
-        flag[j]=1;
+        flag[k]=1;
         for(j=0;j<n;j++){
             if(!flag[j]){
                 if(min+costmatrix[k][j]<dist[j]){
